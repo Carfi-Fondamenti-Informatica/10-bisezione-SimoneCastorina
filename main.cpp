@@ -2,8 +2,7 @@
 #include <cmath>
 using namespace std;
 float f (float y){
-    y=pow(y,2)*cos(y)+1;
-    return y;
+   return pow(y,2)*cos(y)+1;
 }
 
 int main() {

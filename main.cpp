@@ -32,6 +32,5 @@ int main() {
     x=(int)x;
     x=x/10000;
     cout<<x<<endl;
-    cout<<f(x,fy)<<endl;
     return 0;
 }

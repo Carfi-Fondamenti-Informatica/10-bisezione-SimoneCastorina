@@ -17,13 +17,13 @@ int main() {
         }
     }
     while(f(x,fx)!=0){
-        x=(a+b/2);
+        x=(a+b)/2;
         if(f(a,fx)*f(b,fx)<0){
             a=x;
         }else{
             b=x;
         }
-        err=abs((b-a))/2;
+        err=abs((b-a)/2);
         if(err >=1e-6){
             break;
         }
@@ -32,6 +32,5 @@ int main() {
     x=(int)x;
     x=x/10000;
     cout<<x<<endl;
-    cout<<f(x,fx)<<endl;
     return 0;
 }
